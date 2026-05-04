@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bvy47x6xjw7iw"]
+
+[ext_resource type="Script" uid="uid://dw6ql05ci0w1t" path="res://Script/player.gd" id="1_kelma"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j47wa"]
+size = Vector2(32, 32)
+
+[node name="Player" type="CharacterBody2D" unique_id=354222339]
+script = ExtResource("1_kelma")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1001748113]
+color = Color(0.4509804, 0.07058824, 0.101960786, 1)
+polygon = PackedVector2Array(-16, -16, 16, -16, 16, 0, 16, 16, -16, 16, -16, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=751602923]
+shape = SubResource("RectangleShape2D_j47wa")
+debug_color = Color(2.0455569e-07, 0.25334588, 0.30134457, 0.41960785)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=722955119]
+position_smoothing_enabled = true
+position_smoothing_speed = 20.0

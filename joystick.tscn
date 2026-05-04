@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://ckbg71ti3xae"]
+
+[ext_resource type="Script" uid="uid://dupppplugvs6l" path="res://Script/joystick.gd" id="1_to1rj"]
+
+[node name="Joystick" type="Control" unique_id=1303884324]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 256.0
+offset_right = -768.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_to1rj")
