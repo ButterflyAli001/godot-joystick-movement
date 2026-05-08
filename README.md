@@ -14,7 +14,7 @@ Sistem pergerakan berbasis joystick untuk Godot 4.6 yang dirancang untuk game mo
 1. Clone repository ini:
 
    ```
-   git clone https://github.com/username/godot-4-joystick-movement-system.git
+   git clone https://github.com/butterflyali001/godot-4-joystick-movement-system.git
    ```
 2. Copy gdscript dan scene
 3. Assign scene joystick dan player pada world yang kau buat
